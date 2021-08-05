@@ -11,7 +11,7 @@ A fim de facilitar aquilo que será avaliado no trabalho foram desenvolvidas alg
 
 <br>
 
-### **CASOS**
+### **🔢 CASOS**
 
 1. Amostragem dos casos de covid por estado.
 2. Qual estado tem o maior número de casos de covid?
@@ -23,7 +23,7 @@ A fim de facilitar aquilo que será avaliado no trabalho foram desenvolvidas alg
 
 <br>
 
-### **TAXA DE VACINAÇÃO**
+### **📈 TAXA DE VACINAÇÃO**
 
 8. Amostragem dos dados de vacinação por estado.
 9. Qual o estado com maior taxa de vacinação?
@@ -33,7 +33,7 @@ A fim de facilitar aquilo que será avaliado no trabalho foram desenvolvidas alg
 
 <br>
 
-### **SITUAÇÃO SOCIOECONÔMICA**
+### **💰 SITUAÇÃO SOCIOECONÔMICA**
 
 13. Amostragem de situação socioeconômica por estado, através do PIB.
 14. Os estados com menor PIB, tiveram alguma relação com o aumento de casos de covid?
@@ -42,7 +42,7 @@ A fim de facilitar aquilo que será avaliado no trabalho foram desenvolvidas alg
 
 <br>
 
-### **SITUAÇÃO POLÍTICA**
+### **💼 SITUAÇÃO POLÍTICA**
 
 17. Amostragem de votos durante a última eleição a favor do atual presidente.
 18. O apoio ao presidente tem alguma relação com as regiões com maior taxa de casos de covid?
