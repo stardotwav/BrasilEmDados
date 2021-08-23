@@ -17,8 +17,8 @@ A fim de facilitar aquilo que será avaliado no trabalho foram desenvolvidas alg
 2. Qual estado tem o maior número de casos de covid?
 3. Qual estado tem a maior taxa de mortos por covid?
 4. Qual estado tem a maior taxa de recuperação de covid?
-5. Qual o estado que teve a maior taxa de crescimento de casos de covid?
-6. Qual o estado que teve a maior taxa de crescimento de óbitos por covid?
+5. Qual a maior taxa de cresccimento de casos de covid em cada estado? Em que período isso ocorreu?
+6. Qual a maior taxa de cresccimento de óbitos de covid em cada estado? Em que período isso ocorreu?
 7. Qual o estado que teve a maior taxa de mortalidade? (a taxa de mortalidade consiste no número de óbitos dividido pelo número de casos)
 
 <br>
@@ -46,8 +46,8 @@ A fim de facilitar aquilo que será avaliado no trabalho foram desenvolvidas alg
 
 17. Amostragem de votos durante a última eleição a favor do atual presidente.
 18. O apoio ao presidente tem alguma relação com as regiões com maior taxa de casos de covid?
-19. O apoio ao presidente tem alguma relação com as regiões com maior taxa de vacinação?
-20. O apoio ao presidente tem alguma relação com o PIB das regiões?
+19. O apoio ao presidente tem alguma relação com as regiões com maior taxa de óbitos de covid?
+20. O apoio ao presidente tem alguma relação com as regiões com maior taxa de vacinação?
 
 <br>
 
