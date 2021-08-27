@@ -84,7 +84,7 @@ Após a definição do conjunto de dados utilizados pelo grupo, se faz presente 
  
 Com esta etapa buscamos entender os atributos dos objetos, a tipagem dos atributos, domínio, tratar e identificar ruídos ou a falta de informações sensíveis.
  
-# Conjunto de dados Covid
+### Conjunto de dados Covid
  
 O conjunto de dados relacionado a Covid 19, estava  dividido em módulos, assim foi realizada sua junção em somente um dataFrame. A estrutura obtida apresente os seguintes atributos: regiao, estado, municipio, coduf, codmun, codRegiaoSaude, nomeRegiaoSaude, data, semanaEpi, populacaoTCU2019, casosAcumulado, casosNovos, obitosAcumulado, obitosNovos, Recuperadosnovos, emAcompanhamentoNovos, interior/metropolitana. Todos os atributos são do tipo Object. 
  
@@ -92,7 +92,7 @@ A verificação inicial foi realizada com o atributo data, nosso objetivo visou 
  
 Em relação a retirada de ruídos, em prévia visualização das informações que são relevantes ao estudo, não apresentaram erros prejudiciais à análise. Desse modo, a priori não foi realizada remoção de ruídos.
  
-# Conjunto de dados Vacinação
+### Conjunto de dados Vacinação
  
 Os dados presentes para realizar a análise da vacinação, são separados em dois conjuntos. O primeiro conjunto contém informações gerais sobre a campanha de vacinação realizada como: Município, Cód. IBGE, UF, Região, Fabricante, Doses Aplicadas, Dose 1, Dose 2. No segundo conjunto temos das datas referentes a vacinação com ênfase nas datas realizadas. 
  
