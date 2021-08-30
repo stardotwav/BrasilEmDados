@@ -4,6 +4,16 @@ Para o trabalho prático da disciplina de Introdução à Ciência dos Dados ser
 
 <br>
 
+**TAREFAS REALIZADAS**
+
+[🟣 QUESTÕES A SEREM VALIDADAS](https://github.com/Estelamb/BrasilEmDados#-questões-a-serem-validadas) 
+
+[🔵 PREPARAÇÃO DOS DADOS](https://github.com/Estelamb/BrasilEmDados#-preparação-dos-dados) 
+
+[🟢 ORGANIZAÇÃO DO REPOSITÓRIO](https://github.com/Estelamb/BrasilEmDados#-organização-do-repositório)
+
+<br>
+
 ## **🟣 QUESTÕES A SEREM VALIDADAS**
 
 A fim de facilitar aquilo que será avaliado no trabalho foram desenvolvidas algumas questões para auxiliar, divididas nas categorias citadas anteriormente, que irão se conectar ao tema geral.
