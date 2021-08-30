@@ -2,13 +2,12 @@
 
 Para o trabalho prático da disciplina de Introdução à Ciência dos Dados será desenvolvido um processamento dos dados sobre a pandemia do covid-19 no Brasil, além disso, os dados serão comparados a questões como a vacinação, situação socioeconômica e a questões políticas atuais no Brasil. A base de dados base será a disponibilizada no site do Governo sobre o Covid [[1]](https://covid.saude.gov.br/), sendo que além dele, para realizar a extração dos dados sobre a informações da vacinação no Brasil será usando o site, também do Governo, no caso do Ministério da Saúde, a extensão DEMAS [[2]](https://qsprod.saude.gov.br/extensions/DEMAS_C19Vacina/DEMAS_C19Vacina.html), as informações sobre o PIB dos estados [[3]](https://www.ibge.gov.br/explica/pib.php)), e por fim, falaremos sobre a relação entre os apoiadores do atual presidente e as demais informações [[4]](https://especiais.gazetadopovo.com.br/eleicoes/2018/resultados/votacao-candidatos-presidente-brasil/).
 
-Além disso, uma informação importante que será utilizada durante o desenvolvimento do trabalho é os repositórios do GitHub, em que o link para o repositório utilizado pelo grupo está marcado em [[5]](https://github.com/Estelamb/BrasilEmDados ), sendo que o mesmo já foi compartilhado com o professor da disciplina.
-
 <br>
 
 ## **🟣 QUESTÕES A SEREM VALIDADAS**
 
 A fim de facilitar aquilo que será avaliado no trabalho foram desenvolvidas algumas questões para auxiliar, divididas nas categorias citadas anteriormente, que irão se conectar ao tema geral.
+
 <br>
 
 ### **🔢 CASOS**
@@ -52,6 +51,7 @@ A fim de facilitar aquilo que será avaliado no trabalho foram desenvolvidas alg
  
 Após a definição do conjunto de dados utilizados pelo grupo, se faz presente a preparação dos dados em ambiente para análise dos mesmos. 
 Com esta etapa buscamos entender os atributos dos objetos, a tipagem dos atributos, domínio, tratar e identificar ruídos ou a falta de informações sensíveis.
+
 <br>
  
 ### 🔢 **CONJUNTO DE DADOS, COVID**
@@ -80,7 +80,7 @@ No arquivo que contém as informações podemos verificar os respectivos valores
 
 <br>
 
-## **ORGANIZAÇÃO DO REPOSITÓRIO**
+## 🟢 **ORGANIZAÇÃO DO REPOSITÓRIO**
 No repositório teremos a inserção do Jupyter Notebook utilizado para a validação das informações do trabalho, dessa forma, na pasta base teremos o arquivo .ipynb, e uma pasta com os arquivos do tipo, por exemplo .csv, utilizados durante o processamento do trabalho.
 
 Além disso, teremos o arquivo `requirements.txt` utilizado para a instalação do ambiente virtual do trabalho, bastando usar os comandos abaixo, considerando que [Virtualenv](https://gist.github.com/Geoyi/d9fab4f609e9f75941946be45000632b) do Python já está instalado na máquina.
