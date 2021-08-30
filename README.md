@@ -58,18 +58,21 @@ Com esta etapa buscamos entender os atributos dos objetos, a tipagem dos atribut
 O conjunto de dados relacionado a Covid 19, estava  dividido em módulos, assim foi realizada sua junção em somente um dataFrame. A estrutura obtida apresente os seguintes atributos: regiao, estado, municipio, coduf, codmun, codRegiaoSaude, nomeRegiaoSaude, data, semanaEpi, populacaoTCU2019, casosAcumulado, casosNovos, obitosAcumulado, obitosNovos, Recuperadosnovos, emAcompanhamentoNovos, interior/metropolitana. Todos os atributos são do tipo Object. 
 A verificação inicial foi realizada com o atributo data, nosso objetivo visou a identificação do período inicial e final da coleta de dados, para assim ter a referência correta do tempo, ou seja, data inicial e final. O resultado obtido foram as datas: 25 de fevereiro de 2020(25/02/2020) e 22 de agosto de 2021.  Com isso, foi possível identificar um total de 545 dias e fazer verificações com municípios. 
 Em relação a retirada de ruídos, em prévia visualização das informações que são relevantes ao estudo, não apresentaram erros prejudiciais à análise. Desse modo, a priori não foi realizada remoção de ruídos.
+
 <br>
 
 ### 📈 **CONJUNTO DE DADOS, VACINAÇÃO**
  
 Os dados presentes para realizar a análise da vacinação, são separados em dois conjuntos. O primeiro conjunto contém informações gerais sobre a campanha de vacinação realizada como: Município, Cód. IBGE, UF, Região, Fabricante, Doses Aplicadas, Dose 1, Dose 2. No segundo conjunto temos das datas referentes a vacinação com ênfase nas datas realizadas. 
 Filtragem em ruídos, se fez necessário somente no segundo conjunto. Foi identificado datas nulas, sendo as mesmas marcadas com '-', assim foram retiradas.
+
 <br>
 
 ### 💰💼 **CONJUNTO DE DADOS, SITUAÇÃO SOCIOECONÔMICA E POLÍTICA**
 
 Visto que as informações de PIB e dos votos recebidos ao atual presidente na última eleição (no ano de 2018) serão utilizadas apenas como base de comparação com os demais conjuntos de dados, vistos anteriormente, não foi necessário realizar nenhuma limpeza dos dados, bastando apenas deixar os mesmos registrados no arquivo [DadosEleicoesePIB.ipynb](https://github.com/Estelamb/BrasilEmDados/blob/main/DadosEleicoesePIB.ipynb)
 No arquivo que contém as informações podemos verificar os respectivos valores de PIB de cada estado brasileiro, além da porcentagem de votos que o atual presidente (Jair Bolsonaro) recebeu em cada estado brasileiro durante a eleição.
+
 <br>
 
 ## **ORGANIZAÇÃO DO REPOSITÓRIO**
