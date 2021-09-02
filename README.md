@@ -68,7 +68,30 @@ Com esta etapa buscamos entender os atributos dos objetos, a tipagem dos atribut
  
 O conjunto de dados relacionado a Covid 19, estava  dividido em módulos, assim foi realizada sua junção em somente um dataFrame. A estrutura obtida apresente os seguintes atributos: regiao, estado, municipio, coduf, codmun, codRegiaoSaude, nomeRegiaoSaude, data, semanaEpi, populacaoTCU2019, casosAcumulado, casosNovos, obitosAcumulado, obitosNovos, Recuperadosnovos, emAcompanhamentoNovos, interior/metropolitana. Todos os atributos são do tipo Object. 
 
+### **Informação de Atributos**
+
+1. regiao - Nomes das regiões
+2. estado - Nomes dos estados
+3. municipio - Nomes dos municípios
+4. coduf - Código identificador da Unidade Federativa, código de cada estado
+5. codmun - Código identificador do município
+6. codRegiaoSaude - Código identificador do sistema de saúda da região
+7. nomeRegiaoSaude - Nome do sistema de sáude da região
+8. data - Datas de marcação de casos
+9. semanaEpi - Identificação da semana de epidemia 
+10. populacaoTCU2019 - População TCU
+11. casosAcumulado - Número de casos acumulados
+12. casosNovos - Número de novos casos
+13. obitosAcumulado - Número com o total de obtos acumulados
+14. obitosNovos - Número com o registro de novos obtos
+15. Recuperadosnovos - Número com o registro de pacientes recuperados
+16. emAcompanhamentoNovos - Número de pacientes em acompanhamento
+17. interior/metropolitana - Marcação da zona sendo interior o metropolitana
+
+
 A verificação inicial foi realizada com o atributo data, nosso objetivo visou a identificação do período inicial e final da coleta de dados, para assim ter a referência correta do tempo, ou seja, data inicial e final. O resultado obtido foram as datas: 25 de fevereiro de 2020(25/02/2020) e 22 de agosto de 2021.  Com isso, foi possível identificar um total de 545 dias e fazer verificações com municípios. 
+
+No decorre da análise se deparamos com uma grande quantidade de atributos presente no dataframe. Assim, foi decidido realizar uma redução do tamanho com a remoção dos seguintes atributos: coduf, codmun, codRegiaoSaude, nomeRegiaoSaude, Recuperadosnovos, emAcompanhamentoNovos e interior/metropolitana. Essas colunas não são relevantes para as informações que queremos levantar, assim se fez necessário as suas remoções. 
 
 Em relação a retirada de ruídos, em prévia visualização das informações que são relevantes ao estudo, não apresentaram erros prejudiciais à análise. Desse modo, a priori não foi realizada remoção de ruídos.
 
@@ -78,7 +101,20 @@ Em relação a retirada de ruídos, em prévia visualização das informações 
  
 Os dados presentes para realizar a análise da vacinação, são separados em dois conjuntos. O primeiro conjunto contém informações gerais sobre a campanha de vacinação realizada como: Município, Cód. IBGE, UF, Região, Fabricante, Doses Aplicadas, Dose 1, Dose 2. No segundo conjunto temos das datas referentes a vacinação com ênfase nas datas realizadas. 
 
+### **Informação de Atributo**
+
+1. Município -  Nomes dos municípios
+2. Cód. IBGE - Número com o códifo do IBGE por município
+3. UF - Nome da Unidade Federativa, nome do estado
+4. Região - Nomes das regiões
+5. Fabricante - Nomes das empressas fabrícantes das vacinas
+6. Doses Aplicadas - Número com a quantidade de doses aplicadas(Dose 1 + Dose 2)
+7. Dose 1 - Número com a quantidade da aplicação da primeira dose
+8. Dose 2 - Número com a quantidade da aplicação da segunda dose
+
 Filtragem em ruídos, se fez necessário somente no segundo conjunto. Foi identificado datas nulas, sendo as mesmas marcadas com '-', assim foram retiradas.
+
+Em relação aos atributos, se fez necessário a remoção dos seguintes: Cód. IBGE, Dose 1, Dose 2. Com foi supracitado, buscamos a redução do dataframe. Além disso, realizar em manter somente atributos relevantes para a análise. 
 
 <br>
 
