@@ -12,6 +12,8 @@ Para o trabalho prático da disciplina de Introdução à Ciência dos Dados ser
 
 [🟢 ORGANIZAÇÃO DO REPOSITÓRIO](https://github.com/Estelamb/BrasilEmDados#-organização-do-repositório)
 
+[⚪ ANÁLISE E EXTRAÇÃO DE CONHECIMENTO](https://github.com/Estelamb/BrasilEmDados#-análise-e-extração-de-conhecimento)
+
 <br>
 
 ## **🟣 QUESTÕES A SEREM VALIDADAS**
@@ -123,6 +125,11 @@ Em relação aos atributos, se fez necessário a remoção dos seguintes: Cód. 
 Visto que as informações de PIB e dos votos recebidos ao atual presidente na última eleição (no ano de 2018) serão utilizadas apenas como base de comparação com os demais conjuntos de dados, vistos anteriormente, não foi necessário realizar nenhuma limpeza dos dados, bastando apenas deixar os mesmos registrados no arquivo [DadosEleicoesePIB.ipynb](https://github.com/Estelamb/BrasilEmDados/blob/main/DadosEleicoesePIB.ipynb)
 
 No arquivo que contém as informações podemos verificar os respectivos valores de PIB de cada estado brasileiro, além da porcentagem de votos que o atual presidente (Jair Bolsonaro) recebeu em cada estado brasileiro durante a eleição.
+
+<br>
+
+## ⚪ **ANÁLISE E EXTRAÇÃO DE CONHECIMENTO**
+Como uma das partes finais do projeto, temos que foram gerados gráficos, tabelas, além de diversas análises para responder as questões levantadas na primeira sessão, sendo que as mesmas estão presentes no arquivo: [AnaliseExtracaoConhecimento.ipynb](https://github.com/Estelamb/BrasilEmDados/blob/main/AnaliseExtracaoConhecimento.ipynb)
 
 <br>
 
