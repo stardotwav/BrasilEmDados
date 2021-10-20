@@ -60,8 +60,6 @@ A fim de facilitar aquilo que será avaliado no trabalho foram desenvolvidas alg
  
 Após a definição do conjunto de dados utilizados pelo grupo, se faz presente a preparação dos dados em ambiente para análise dos mesmos. 
 Com esta etapa buscamos entender os atributos dos objetos, a tipagem dos atributos, domínio, tratar e identificar ruídos ou a falta de informações sensíveis.
-
-<br>
  
 ### 🔢 **Covid**
 O conjunto de dados relacionado a Covid 19, estava  dividido em módulos, assim foi realizada sua junção em somente um dataFrame. A estrutura obtida apresente os seguintes atributos: regiao, estado, municipio, coduf, codmun, codRegiaoSaude, nomeRegiaoSaude, data, semanaEpi, populacaoTCU2019, casosAcumulado, casosNovos, obitosAcumulado, obitosNovos, Recuperadosnovos, emAcompanhamentoNovos, interior/metropolitana. Todos os atributos são do tipo Object. 
@@ -91,8 +89,6 @@ No decorre da análise se deparamos com uma grande quantidade de atributos prese
 
 Em relação a retirada de ruídos, em prévia visualização das informações que são relevantes ao estudo, não apresentaram erros prejudiciais à análise. Desse modo, a priori não foi realizada remoção de ruídos.
 
-<br>
-
 ### 📈 **Vacinação**
 Os dados presentes para realizar a análise da vacinação, são separados em dois conjuntos. O primeiro conjunto contém informações gerais sobre a campanha de vacinação realizada como: Município, Cód. IBGE, UF, Região, Fabricante, Doses Aplicadas, Dose 1, Dose 2. No segundo conjunto temos das datas referentes a vacinação com ênfase nas datas realizadas. 
 
@@ -109,8 +105,6 @@ Os dados presentes para realizar a análise da vacinação, são separados em do
 Filtragem em ruídos, se fez necessário somente no segundo conjunto. Foi identificado datas nulas, sendo as mesmas marcadas com '-', assim foram retiradas.
 
 Em relação aos atributos, se fez necessário a remoção dos seguintes: Cód. IBGE, Dose 1, Dose 2. Com foi supracitado, buscamos a redução do dataframe. Além disso, realizar em manter somente atributos relevantes para a análise. 
-
-<br>
 
 ### 💰💼 **Economia e Política**
 Visto que as informações de PIB e dos votos recebidos ao atual presidente na última eleição (no ano de 2018) serão utilizadas apenas como base de comparação com os demais conjuntos de dados, vistos anteriormente, não foi necessário realizar nenhuma limpeza dos dados, bastando apenas deixar os mesmos registrados no arquivo [DadosEleicoesePIB.ipynb](https://github.com/Estelamb/BrasilEmDados/blob/main/DadosEleicoesePIB.ipynb)
@@ -130,7 +124,7 @@ Como uma das partes finais do projeto, temos que foram gerados gráficos, tabela
 <br>
 
 ## 🔴 **APRESENTAÇÃO**
-Foi feita uma apresentação após a análise e extração dos conhecimentos dos dados selecionados. Essa apresentação pode ser vista na plataforma do Youtube, em formato de vídeo, ou então os slides usados para a mesma. Os links para ambos os casos é: [Vídeo]() e [Slides](https://github.com/Estelamb/BrasilEmDados/blob/main/BrasilEmDados.pdf)
+Foi feita uma apresentação após a análise e extração dos conhecimentos dos dados selecionados. Essa apresentação pode ser vista na plataforma do Youtube, em formato de vídeo, ou então os slides usados para a mesma. Os links para ambos os casos é: [Vídeo](https://youtu.be/OC7nNA0ZJoo) e [Slides](https://github.com/Estelamb/BrasilEmDados/blob/main/BrasilEmDados.pdf)
 
 <br>
 
@@ -165,5 +159,7 @@ jupyter-notebook
 ## 🟠 **AUTORES**
 
 **Estela Miranda** - [Estelamb](https://github.com/Estelamb)
+
 **João Marcos Ramos** - [raitocan](https://github.com/raitocan)
+
 **Roniel Barbosa** - [RonielNunes](https://github.com/RonielNunes)
