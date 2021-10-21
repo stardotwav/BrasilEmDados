@@ -14,7 +14,7 @@ Para o trabalho prático da disciplina de Introdução à Ciência dos Dados ser
 
 [🟡 ANÁLISE PREDITIVA](https://github.com/EstelambBrasilEmDados#-análise-preditiva)
 
-[🔴 APRESENTAÇÃO](https://github.com/EstelambBrasilEmDados#-apresentação)
+[🔴 APRESENTAÇÃO](https://github.com/Estelamb/BrasilEmDados#-apresenta%C3%A7%C3%A3o)
 
 [🟢 ORGANIZAÇÃO DO REPOSITÓRIO](https://github.com/Estelamb/BrasilEmDados#-organização-do-repositório)
 
