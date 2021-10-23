@@ -12,7 +12,7 @@ Para o trabalho prático da disciplina de Introdução à Ciência dos Dados ser
 
 [⚪ ANÁLISE E EXTRAÇÃO DE CONHECIMENTO](https://github.com/EstelambBrasilEmDados#-análise-e-extração-de-conhecimento)
 
-[🟡 ANÁLISE PREDITIVA](https://github.com/EstelambBrasilEmDados#-análise-preditiva)
+[🟡 ANÁLISE PREDITIVA](https://github.com/Estelamb/BrasilEmDados#-an%C3%A1lise-preditiva)
 
 [🔴 APRESENTAÇÃO](https://github.com/Estelamb/BrasilEmDados#-apresenta%C3%A7%C3%A3o)
 
@@ -119,7 +119,15 @@ Como uma das partes finais do projeto, temos que foram gerados gráficos, tabela
 <br>
 
 ## 🟡 **ANÁLISE PREDITIVA**
-🚧 Em construção!
+Para a última etapa do trabalho foram feitos dois tipos de análises preditivas, uma que demonstra o agrupamento dos dados, mostrando sua correlação, e o outro com categorização. Ambas as análises preditivas estão no final do arquivo: [AnaliseExtracaoConhecimento.ipynb](https://github.com/Estelamb/BrasilEmDados/blob/main/AnaliseExtracaoConhecimento.ipynb).
+
+<br>
+
+#### AGRUPAMENTO DE DADOS
+Para fazermos os agrupamentos, foram usadas as bases de dados de vacinação e os casos e mortes por covid, sendo os mesmos agrupados pelas regiões do Brasil. Para as análises, usamos de regressões lineares, para cada pessoa vacinada impacta de acordo com o coeficiente estimado no número de óbitos. A partir disso foi possível notar que em todas as regiões, os valores do coeficiente estimado e o R² sairam extremamente baixos, sendo isto justificado pela pequena parcela da população vacinada, além do fato, de que as vacinas são efetivas à longo prazo.
+
+#### CATEGORIZAÇÃO
+Já na categorização foram usados os dados da vacinação relacionados com o PIB e a População de cada região. No primeiro caso, o aprendizado de máquina não supervisionado foi utilizado de forma a analisar a relação entre a Taxa de Vacinados e o PIB, porém, ele não chegou a um agrupamento similar ao real, sendo isso principalmente justificado por termos outliers, como o estado de São Paulo, que ficou categorizado como uma região única. No segundo caso, o aprendizado de máquina não supervisionado foi utilizado de forma a analisar a relação entre o Número de Habitantes e o PIB, que assim como no caso anterior não foi possível chegar próxima do agrupamento real, repetindo o caso citado sobre o estado de São Paulo.
 
 <br>
 
